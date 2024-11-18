@@ -1,13 +1,13 @@
 <template>
     <div>
-        <Button v-if="address" @click="disconnectWallet" variant="outline">
-            <Icon name="lucide:wallet" className="mr-2 h-4 w-4" />
+        <UiButton v-if="address" @click="disconnectWallet" variant="outline">
+            <Icon name="lucide:wallet" class="mr-2 h-4 w-4" />
             {{truncateAddress(address)}}
-        </Button>
-        <Button v-else @click="connectWallet" variant="outline">
-            <Icon name="lucide:wallet" className="mr-2 h-4 w-4" />
+        </UiButton>
+        <UiButton v-else @click="connectWallet" variant="outline">
+            <Icon name="lucide:wallet" class="mr-2 h-4 w-4" />
             Connect Wallet
-        </Button>
+        </UiButton>
     </div>
 </template>
 

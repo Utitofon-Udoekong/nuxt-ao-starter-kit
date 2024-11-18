@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/fonts": "^0.10.2",
     "@nuxt/icon": "^1.7.5",
+    "@nuxtjs/tailwindcss": "^6.12.2",
     "@permaweb/aoconnect": "^0.0.61",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
@@ -18,8 +20,7 @@
     "radix-vue": "^1.9.9",
     "tailwind-merge": "^2.5.4",
     "vue": "latest",
-    "vue-router": "latest",
-    "vue-sonner": "^1.2.5"
+    "vue-router": "latest"
   },
   "devDependencies": {
     "@iconify-json/lucide": "^1.2.15"
